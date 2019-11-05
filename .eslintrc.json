@@ -1,0 +1,39 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": [
+        "sonarjs",
+        "jsx-a11y",
+        "promise",
+        "no-use-extend-native"
+    ],
+    "env": {
+        "browser": true
+    },
+    "extends": [
+        "react-app",
+        "airbnb",
+        "plugin:sonarjs/recommended",
+        "plugin:jsx-a11y/recommended",
+        "plugin:promise/recommended"
+    ],
+    "rules": {
+        "space-before-function-paren": [
+            "error",
+            {
+                "anonymous": "never",
+                "named": "never",
+                "asyncArrow": "always"
+            }
+        ],
+        "arrow-parens": [
+            "error",
+            "as-needed"
+        ],
+		"no-use-extend-native/no-use-extend-native": 2
+    }
+}
