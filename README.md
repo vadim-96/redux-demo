@@ -1,6 +1,7 @@
 ## Description
 
-This is a very simple SPA which shows the basic features of React, Redux and Redux Thunk.
+This is a very simple SPA which shows the basic features of React, Redux and Redux Thunk.<br>
+The application is written following the course of Juriy Bura.
 
 ## Usage
 
